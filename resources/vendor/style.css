@@ -1,0 +1,273 @@
+body{
+     background-color:honeydew;
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    background: center/cover url(banner.jpg) no-repeat;
+    position: relative;
+}
+.banner-text p{
+    color: red;
+    margin-bottom: 0rem!important;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.banner-text h2{
+     color: red;
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+figcaption{
+    opacity: 0.7;
+}
+.banner-text a{
+    background: red;border-radius: 2px;
+    padding: 2px;
+    font-size: larger;
+}
+.banner-text{
+    position: relative;
+    height: 100%;
+    color: #fff;
+    z-index: 1;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+/*
+.i-body{
+   position: relative;
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    z-index: 1;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin:  0 auto;  
+}
+*/
+ .overlay{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(to right bottom, #372c05, #662d14, #932546, #993b97, #1270eb);
+    opacity: 0.7;
+    
+}
+.body-image img{
+  width: 100%;
+}
+.card{
+    background-color: antiquewhite;
+     position: relative;
+    overflow: hidden;
+   
+}
+.wpr{
+    font-size: 30px;
+    word-spacing: 6px;
+    color: azure;
+}
+.inner{
+    overflow: hidden;
+    
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.1);
+}
+.card:hover>.overlay{
+     position: absolute;
+    left: 0;
+    top: 0;
+    background:gray;
+    opacity: 0.5;
+    width: 100%;
+    height: 68.4%;
+}
+p{
+   animation:topTobottom 1s normal 1s infinite linear;
+}
+  @keyframes topTobottom
+        {
+            from
+            {
+                opacity: 1;
+                 color: brown;
+                transform:translate(-40px);
+            }
+            to
+            {
+                opacity: 1;
+               color: red;
+                transform:translate(25px);
+            }
+        }
+hr{
+    width: 400px;
+}
+#bg-color{
+     background-color:honeydew;
+}
+.card-body{
+       display: inline-block;
+    text-align: center;
+      background-image: linear-gradient(to top, gray , black);
+}
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.card-text{
+    color: red;
+    font-size: 23px;
+    font-weight: 800;
+    font-style: italic;
+}
+i{
+    color: azure;
+    font-size: 30px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+}
+li a{
+    color: rebeccapurple;
+    font-size: 20px;
+}
+.nav ul li a:hover{
+text-decoration: none;
+    color: red;
+   text-transform: uppercase;
+    transition: all .5s ease-in;
+    
+}
+.nav ul li{
+    color: dimgray;
+    font-size: 20px;
+    font-family: monospace;
+}
+.nav ul li:hover{
+    background:black;
+    color: red;  
+}
+.btn:hover{
+    background:red;
+    transition: all 1.5s ease;
+}
+h4{
+     font-family: fantasy;
+    font-weight: 300;
+       color: black;
+}
+.heading{
+    font-family: fantasy;
+    font-weight: 500;
+    padding-left: 12px;
+        color: aliceblue;
+}
+.card-image {
+  position: relative;
+  width: 100%;
+}
+
+.card-image .image {
+  display: block;
+  width: 100%;
+    height: auto;
+}
+
+.ovarlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+
+.card:hover .ovarlay {
+  opacity: 0.7;
+    width: 100%;
+}
+footer .h{
+     border-bottom: 2px solid wheat;
+    margin: -12px;
+}
+footer .ul{
+    margin-top: 12px;
+}
+footer .aa,.bb,.cc{
+    border-left: 2px solid wheat;
+}
+footer .aa,.bb,.cc ul li a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.navbar{
+        background: #5f213d;
+}
+footer .aa ul li a{
+color: white;
+    text-decoration: none;
+}
+footer .bb ul li a{
+color: white;
+    text-decoration: none;
+}
+footer .cc ul li a{
+color: white;
+    text-decoration: none;
+}
+.home h1{
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+    text-transform: uppercase;
+    
+}
+.modal-body{
+    background: blue;
+    
+}
+.modal-header,.modal-footer{
+    background: red;
+}
+h5{
+    color: white;
+}
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+.im-body{
+/*        text-align: -webkit-center;*/
+    padding-top: 55px;
+}
